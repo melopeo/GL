@@ -6,7 +6,7 @@ MATLAB implementation of the paper:
 
 ## Citation:
 ```
-@article{Mercado:2019:ecmlpkdd,
+@InProceedings{Mercado:2019:ecmlpkdd,
 author="Mercado, Pedro
 and Bosch, Jessica
 and Stoll, Pedro
