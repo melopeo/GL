@@ -10,7 +10,7 @@ MATLAB implementation of the paper:
 - `sample_script_wikipedia.m` : example on how to use our approach on Wikipedia Datasets from our [paper](https://arxiv.org/abs/1809.06432)
 
 ## Usage:
-Let `Wpos,Wneg` be adjacency matrices of positive and negative graphs, `supervised_nodes_idx` an array with indexes of labeled nodes, `labels_of_supervised_nodes` an array with the corresponding labels, `Laplacian_str` a string indicating wich signed Laplacian to use, and `numEigenvectors` a scalar indicating how many eigenvectors to take. 
+Let `Wpos,Wneg` be adjacency matrices of positive and negative graphs, `supervised_nodes_idx` an array with indexes of labeled nodes, `labels_of_supervised_nodes` an array with the corresponding labels, `Laplacian_str` a string indicating which signed Laplacian to use, and `numEigenvectors` a scalar indicating how many eigenvectors to take. 
 
 Node Classification for signed graphs via diffuse interface methods is performed via:
 ```
