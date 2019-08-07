@@ -15,7 +15,6 @@ Let `Wpos,Wneg` be adjacency matrices of positive and negative graphs, `supervis
 Node Classification for signed graphs via diffuse interface methods is performed via:
 ```
 Y_hat = NCSN_using_diffuse_interface_methods(Wpos, Wneg, supervised_nodes_idx, labels_of_supervised_nodes, Laplacian_str, numEigenvectors);
-
 ```
 
 ## Citation:
