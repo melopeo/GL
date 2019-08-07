@@ -11,6 +11,7 @@ MATLAB implementation of the paper:
 
 ## Usage:
 Let `Wpos,Wneg` be adjacency matrices of positive and negative graphs, `supervised_nodes_idx` an array with indexes of labeled nodes, `labels_of_supervised_nodes` an array with the corresponding labels, `Laplacian_str` a string indicating with signed Laplacian to use, and `numEigenvectors` a scalar indicating how many eigenvectors to take. 
+
 Node Classification for signed graphs via diffuse interface methods is performed via:
 ```
 Y_hat = NCSN_using_diffuse_interface_methods(Wpos, Wneg, supervised_nodes_idx, labels_of_supervised_nodes, Laplacian_str, numEigenvectors);
