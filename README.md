@@ -17,7 +17,7 @@ Node Classification for signed graphs via diffuse interface methods is performed
 Y_hat = NCSN_using_diffuse_interface_methods(Wpos, Wneg, supervised_nodes_idx, labels_of_supervised_nodes, Laplacian_str, numEigenvectors);
 ```
 ## Quick Overview:
-![](https://github.com/melopeo/GL/blob/master/Poster/poster.pdf)
+![](https://github.com/melopeo/GL/blob/master/Poster/poster.jpg)
 
 ## Citation:
 ```
